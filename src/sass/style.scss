@@ -1,0 +1,65 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+@import 'base/mixins';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container {
+    position: relative;    
+    max-width: 1185px;
+    margin: 0 auto;    
+}
+
+
+:root {
+    //colors
+    --color-black: #000;
+    --color-white: #fff;
+    // --color-1: #00868a;
+    // --color-2: #4fbfa5;
+    // --color-3: #c4c4c4;
+
+    //font sizes
+    --fs-11: 11px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-21: 21px;
+    --fs-24: 24px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-48: 48px;
+    --fs-96: 96px;
+    //line hights
+    --lh-16: 16px;
+    --lh-19: 19px;
+    --lh-21: 21px;
+    --lh-27: 27px;
+    --lh-72: 72px;
+    --lh-150p: 150%;
+}
+
+a {
+    color: var(--color-black);
+    &:hover {
+        text-decoration: none;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import 'blocks/txtFontStyles';
+@import 'blocks/policy';
+@import 'blocks/pageup';
+@import 'blocks/media';
