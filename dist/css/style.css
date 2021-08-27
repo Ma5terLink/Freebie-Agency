@@ -338,6 +338,76 @@ template {
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Italic.eot");
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url("../fonts/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Italic.woff2") format("woff2"), url("../fonts/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-BoldItalic.eot");
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url("../fonts/OpenSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-BoldItalic.woff2") format("woff2"), url("../fonts/OpenSans-BoldItalic.woff") format("woff"), url("../fonts/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-SemiBold.eot");
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("../fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-SemiBold.woff2") format("woff2"), url("../fonts/OpenSans-SemiBold.woff") format("woff"), url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-ExtraBoldItalic.eot");
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url("../fonts/OpenSans-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/OpenSans-ExtraBoldItalic.woff") format("woff"), url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-LightItalic.eot");
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url("../fonts/OpenSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-LightItalic.woff2") format("woff2"), url("../fonts/OpenSans-LightItalic.woff") format("woff"), url("../fonts/OpenSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.eot");
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-SemiBoldItalic.eot");
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url("../fonts/OpenSans-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/OpenSans-SemiBoldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-ExtraBold.eot");
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url("../fonts/OpenSans-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-ExtraBold.woff2") format("woff2"), url("../fonts/OpenSans-ExtraBold.woff") format("woff"), url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Light.eot");
+  src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light.woff2") format("woff2"), url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
 * {
   padding: 0;
   margin: 0;
@@ -375,15 +445,124 @@ template {
 }
 
 a {
-  color: var(--color-black);
+  color: var(--color-white);
 }
 a:hover {
+  color: var(--color-white);
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+}
+
+.promo {
+  margin: 0 50px;
+  margin-top: 48px;
+  width: 1800px;
+  height: 904px;
+  background: url("../img/bg.png") center center/cover no-repeat;
+}
+.promo__logo {
+  position: absolute;
+  margin-top: 74px;
+  margin-left: 310px;
+  font-family: Oswald;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 2.304px;
+  color: #FFFFFF;
+}
+.promo__menu {
+  padding: 79px 0 0 985px;
+}
+.promo__menu-wrapper {
+  display: flex;
+  position: relative;
+  width: 503px;
+  justify-content: space-between;
+}
+.promo__menu-item {
+  position: relative;
+}
+.promo__menu-item:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  top: 24px;
+  right: 0;
+  background-color: #4caf50;
+}
+.promo__menu-item.active:before {
+  width: 100%;
+}
+.promo__menu-item a {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.94px;
+}
+.promo__menu-item a:hover {
+  color: #FFFFFF;
+}
+.promo__title {
+  padding-top: 283px;
+  font-size: 72px;
+  line-height: 107px;
+  text-align: center;
+  letter-spacing: 4.608px;
+  color: #FFFFFF;
+}
+.promo__subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 24.5px;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 1.28px;
+  color: #FFFFFF;
+}
+.promo__slider-selector {
+  display: flex;
+  margin-top: 283px;
+  margin-left: 843px;
+  width: 107px;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: flex-end;
+  letter-spacing: 1.152px;
+  color: rgba(255, 255, 255, 0.437245);
+}
+.promo__slider-item {
+  position: relative;
+  z-index: 0;
+}
+.promo__slider-item.active {
+  top: 4px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: 2.304px;
+  color: #FFFFFF;
+}
+.promo__slider-item.active:before, .promo__slider-item.active:after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  top: 28px;
+  left: 0;
+  background-color: #4caf50;
+}
+.promo__slider-item.active:after {
+  width: 17px;
+  left: 17px;
+  z-index: -1;
 }
 
 .fz11lh150p {
