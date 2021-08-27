@@ -1,0 +1,16 @@
+.main-title {
+    position: relative;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 3.072px;
+    color: #252525;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 45px;
+        height: 2px;
+        top: 75px;
+        background-color: #252525;
+    }
+}
