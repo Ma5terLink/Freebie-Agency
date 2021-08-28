@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 45px;
   height: 2px;
-  top: 75px;
+  top: 80px;
   background-color: #252525;
 }
 
@@ -774,10 +774,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.5;
 }
 
-.main-title:before {
-  top: 80px;
-}
-
 .works {
   position: relative;
   margin: 0 auto;
@@ -1008,6 +1004,95 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
   letter-spacing: 2px;
   color: #252525;
+}
+
+.team {
+  margin-top: 173px;
+}
+.team__wrapper {
+  padding-top: 130px;
+  margin: 0 auto;
+  width: 1175px;
+  min-height: 845px;
+}
+.team__cards-wrapper {
+  margin-top: 76px;
+  display: flex;
+  justify-content: space-between;
+}
+.team__cards-item {
+  position: relative;
+  width: 370px;
+  height: 398px;
+}
+.team__cards-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.team__cards-item.active .team__cards-name {
+  padding-top: 20px;
+}
+.team__cards-item.active .team__cards-info {
+  height: 156px;
+  opacity: 1;
+}
+.team__cards-item.active .team__cards-divider {
+  display: block;
+  margin: 0 auto;
+  margin-top: 9px;
+  width: 45px;
+  height: 2px;
+  background-color: #252525;
+}
+.team__cards-item.active .team__cards-role {
+  display: block;
+  margin-top: 6px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1.152px;
+  color: #252525;
+}
+.team__cards-item.active .team__cards-descr {
+  display: block;
+  margin-top: 12px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.008px;
+  color: #777777;
+}
+.team__cards-info {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.team__cards-name {
+  padding-top: 13px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1.152px;
+  color: #252525;
+  text-transform: uppercase;
+}
+.team__cards-divider {
+  display: none;
+}
+.team__cards-role {
+  display: none;
+}
+.team__cards-descr {
+  display: none;
 }
 
 .fz11lh150p {
