@@ -1244,6 +1244,66 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8;
 }
 
+.footerTop {
+  padding-top: 83px;
+  margin: 0 auto;
+  width: 1806px;
+  height: 339px;
+  background: #2e2e2e;
+}
+.footerTop .footer__wrapper {
+  width: 259px;
+  height: 174px;
+  margin: 0 auto;
+}
+.footerTop .footer__address, .footerTop .footer__contacts {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.832px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-align: center;
+}
+.footerTop .footer__address {
+  padding-top: 59px;
+}
+.footerTop .footer__contacts {
+  padding-top: 10px;
+}
+.footerTop .footer__socials {
+  display: flex;
+  padding-top: 39px;
+  margin: 0 auto;
+  width: 138px;
+  justify-content: space-between;
+}
+.footerTop .footer__socials-item {
+  width: 32px;
+}
+
+.footerBottom {
+  margin: 0 auto;
+  width: 1806px;
+  background: #252525;
+}
+.footerBottom__wrapper {
+  padding-top: 20px;
+  height: 58px;
+}
+.footerBottom__copyrights {
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.832px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-align: center;
+}
+
 .fz11lh150p {
   font-size: var(--fs-11);
   line-height: var(--lh-150p);
