@@ -1,3 +1,54 @@
 .contacts {
-    height: 300px;
+    margin-top: 117px;
+    &__wrapper {
+        display: flex;
+        margin: 0 auto;
+        height: 300px;   
+        width: 1806px;   
+    }
+    &__letsWork-w, &__info-w {
+        width: 903px;
+    }
+    &__letsWork-w {
+        background-color: #fbfbfb;
+    }
+    &__info-w {
+        background-color: #70bd59;
+        &.wt {
+            .contacts__text, .contacts__descr {
+                color: #fff;
+            }
+        }
+    }
+    &__image {
+        width: 35px;
+        padding-top: 69px;
+        margin: 0 auto;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__text {
+        padding-top: 19px;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 2.66667px;
+        color: #373737;
+    }
+    &__descr {
+        padding-top: 22px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 1.55556px;
+        color: #373737;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
 }
+
